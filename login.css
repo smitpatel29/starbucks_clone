@@ -1,0 +1,220 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: rubik, sans-serif;
+}
+
+body {
+    display: grid;
+    height: 100vh;
+    place-items: center;
+    background: url("images/login\ banner.jpg");
+    position: relative;
+}
+
+.login-form {
+    position: relative;
+    width: 375px;
+    height: 812px;
+    background: #FFFFFF;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: -0.02em;
+}
+
+.logo {
+    position: absolute;
+    width: 220px;
+    height: 195px;
+    left: 50px;
+    top: 132px;
+
+}
+
+.mainTitle {
+    position: absolute;
+    width: 263px;
+    height: 28px;
+    left: 56px;
+    top: 344px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 28px;
+    color: black;
+}
+
+.mainButtons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 17px;
+    position: absolute;
+    width: 342px;
+    height: 48.89px;
+    left: 17px;
+    top: 384px;
+    font-weight: 400;
+    font-size: 21.1512px;
+    line-height: 25px;
+
+}
+
+.activeButton {
+
+    width: 164px;
+    height: 48.89px;
+    background: #0A824C;
+    border-radius: 12px;
+    flex: none;
+    background-color: #0A824C;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 11.95px 35px;
+
+}
+
+.defaultButton {
+    width: 164px;
+    height: 48.89px;
+    background: #FFFFFF;
+    line-height: 24px;
+    color: #00643C;
+    border: 1px solid #00643C;
+    border-radius: 12px;
+    padding: 12px 45px;
+    text-decoration: none;
+}
+
+.Email {
+
+    padding: 10px 17px;
+    gap: 7px;
+    justify-content: center;
+    left: 18px;
+    top: 461px;
+    position: absolute;
+    width: 341px;
+    height: 46px;
+    border: 1px solid gray;
+    border-radius: 12px;
+}
+
+.Password {
+
+    padding: 10px 17px;
+    gap: 7px;
+    isolation: isolate;
+    position: absolute;
+    width: 341px;
+    height: 46px;
+    left: 18px;
+    top: 517px;
+    border: 1px solid #666666;
+    border-radius: 12px;
+}
+
+.Submit {
+
+    align-items: center;
+    padding: 10px 17px;
+    gap: 9px;
+    font-weight: 500px;
+    font-size: 16px;
+    position: absolute;
+    width: 283px;
+    height: 50px;
+    left: 44px;
+    top: 593px;
+    color: #FFFFFF;
+    background: #0A824C;
+    border-color: #0A824C;
+    border-radius: 12px;
+}
+
+.Submit:hover {
+    background: #048C53;
+    box-shadow: 0px 3px 4px #00643C;
+}
+
+.forgotText {
+    position: absolute;
+    width: 100px;
+    height: 14px;
+    left: 257px;
+    top: 566px;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    color: #666666;
+    letter-spacing: -0.01em;
+
+
+}
+
+.socialmediaButton {
+
+    gap: 16px;
+    position: absolute;
+    width: 337px;
+    height: 45px;
+    left: 19px;
+    top: 673px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    display: flex;
+    letter-spacing: -0.02em;
+}
+
+.buttonFacebook {
+    padding: 12px 26px;
+    gap: 6px;
+    width: 163px;
+    height: 45px;
+    background: #4267B2;
+    border-radius: 12px;
+}
+
+.buttonFacebook:hover {
+    background-color: #4f78c9;
+}
+
+.buttonGoogle {
+    padding: 12px 30px;
+    gap: 7.4px;
+    width: 163px;
+    height: 45px;
+    background: #BB001B;
+    border-radius: 12.6907px;
+}
+
+.buttonGoogle:hover {
+    background-color: #e94059;
+}
+
+.text {
+    position: absolute;
+    width: 168px;
+    height: 19px;
+    left: 102px;
+    top: 748px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #666666;
+}
+
+.login-form .buttonFacebook i,
+.login-form .buttonGoogle i {
+    width: 25px;
+    height: 25px;
+    padding-right: 10px;
+}

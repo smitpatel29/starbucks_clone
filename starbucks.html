@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starbucks Home Page</title>
+    <link rel="stylesheet" href="starbucks.css">
+</head>
+
+<body>
+    <div id="container">
+        <header id="header">
+            <div class="logo">
+                <a href="login.html"><img id="header-img" src="https://i.ibb.co/Tmj0798/logo-2.png" class="logo"
+                        alt="logo company"></a>
+            </div>
+            <nav id="nav-bar">
+                <div class="toggle" onclick="toggleMenu();"></div>
+                <ul class="navigation">
+                    <li><a class="nav-link" href="#hero">Home</a></li>
+                    <li><a class="nav-link" href="#menu">Menu</a></li>
+                    <li><a class="nav-link" href="#video">#MorningYes</a></li>
+                    <li><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section id="hero">
+            <div class="circle"></div>
+            <div class="content">
+                <div class="textBox">
+                    <h2>It's not just Coffe<br>It's <span>Starbucks</span></h2>
+                    <p>We are not only a place to drop in and get your morning cup of coffee (although you are more than welcome to do that), we are a place where you can sit down and
+                        enjoy that tailor-made cup of coffee. </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div class="imgBox">
+                    <img src="https://i.ibb.co/QJGpkQK/img1.png" class="starbucks" alt="frappuccino mint">
+                </div>
+            </div>
+            <ul class="thumb">
+                <li><img src="https://i.ibb.co/kJppsWn/thumb1.png" alt="frappuccino mint"
+                        onclick="imgSlider('https://i.ibb.co/QJGpkQK/img1.png');changeCircleColor('#017143');changeButtonColor('#017143');changeTitleColor('#017143')">
+                </li>
+                <li><img src="https://i.ibb.co/gMZRQtn/thumb3.png" alt="frappuccino rainbow"
+                        onclick="imgSlider('https://i.ibb.co/HpqM0nr/img3.png');changeCircleColor('#d752b1');changeButtonColor('#d752b1');changeTitleColor('#d752b1')">
+                </li>
+                <li><img src="https://i.ibb.co/SJcghB4/thumb2.png" alt="frappuccino pink"
+                        onclick="imgSlider('https://i.ibb.co/rQW7RSb/img2.png');changeCircleColor('#eb7495');changeButtonColor('#eb7495');changeTitleColor('#eb7495')">
+                </li>
+            </ul>
+            <ul class="sci">
+                <li><a href="https://www.facebook.com/starbucksindia"><img src="https://i.ibb.co/g3gKHNy/facebook.png"
+                            alt="icon rrss facebook"></a></li>
+                <li><a href="https://www.instagram.com/starbucksindia/"><img
+                            src="https://i.ibb.co/cwYYrX8/instagram.png" alt="icon rrss instagram"></a></li>
+                <li><a href="https://twitter.com/starbucksindia"><img src="https://i.ibb.co/C8vSWQb/twitter.png"
+                            alt="icon rrss twitter"></a></li>
+            </ul>
+            <div class="custom-shape-divider-bottom-1615734092">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                    preserveAspectRatio="none">
+                    <path d="M1200 0L0 0 598.97 114.72 1200 0z" class="shape-fill"></path>
+                </svg>
+            </div>
+        </section>
+        <section id="menu">
+            <h2>Menu</h2>
+            <div class="container-card">
+                <div class="card">
+                    <div class="fx"></div>
+                    <div class="imgBx">
+                        <img src="https://i.ibb.co/QJGpkQK/img1.png" alt="frappuccino mint">
+                    </div>
+                    <div class="contentBx">
+                        <h2>Mint Frappuccino</h2>
+                        <div class="size">
+                            <h3>Size:</h3>
+                            <span>S</span>
+                            <span>M</span>
+                            <span>L</span>
+                        </div>
+                        <a href="#contact">Order Now</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="fx"></div>
+                    <div class="imgBx">
+                        <img src="https://i.ibb.co/rQW7RSb/img2.png" alt="frappuccino pink">
+                    </div>
+                    <div class="contentBx">
+                        <h2>Pink Frappuccino</h2>
+                        <div class="size">
+                            <h3>Size:</h3>
+                            <span>S</span>
+                            <span>M</span>
+                            <span>L</span>
+                        </div>
+                        <a href="#contact">Order Now</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="fx"></div>
+                    <div class="imgBx">
+                        <img src="https://i.ibb.co/HpqM0nr/img3.png" alt="frappuccino rainbow">
+                    </div>
+                    <div class="contentBx">
+                        <h2>Rainbow Frappuccino</h2>
+                        <div class="size">
+                            <h3>Size:</h3>
+                            <span>S</span>
+                            <span>M</span>
+                            <span>L</span>
+                        </div>
+                        <a href="#contact">Order Now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="video-section">
+            <h2><span>#</span>MorningYes</h2>
+            <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/y2Ea1-5jj48?controls=0"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </section>
+        <section id="contact">
+            <div class="custom-shape-divider-top-1615773188">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                    preserveAspectRatio="none">
+                    <path d="M1200 0L0 0 598.97 114.72 1200 0z" class="shape-fill"></path>
+                </svg>
+            </div>
+            <div class="ui-card shadow-card form-email">
+                <h2>Contact Us!</h2>
+                <form id="form">
+                    <input name="email" id="email" class="form-control" type="email"
+                        placeholder="Enter your email address" required />
+                    <input id="submit" type="submit" value="Get Started" class="btn" />
+                </form>
+            </div>
+        </section>
+        <!-- Footer -->
+        <footer>
+            <span>Copyright &copy; 2023, Patel Tirth(22bca239) & Patel Smit(22bca234)</span>
+        </footer>
+        <!-- Scripts -->
+
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+        <script type="text/javascript">
+            function imgSlider(anything) {
+                document.querySelector('.starbucks').src = anything;
+            }
+
+            function changeCircleColor(color) {
+                const circle = document.querySelector('.circle');
+                circle.style.background = color;
+            }
+
+            function changeButtonColor(color) {
+                const button = document.querySelector('.content .textBox a');
+                button.style.background = color;
+            }
+            function changeTitleColor(color) {
+                const title = document.querySelector('.content .textBox h2 span');
+                title.style.color = color;
+            }
+
+            function toggleMenu() {
+                var menuToggle = document.querySelector('.toggle');
+                var navigation = document.querySelector('.navigation');
+                menuToggle.classList.toggle('active')
+                navigation.classList.toggle('active')
+            }
+        </script>
+    </div>
+</body>
